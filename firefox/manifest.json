@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": ".mcas.ms Auto-remover",
   "version": "1.0",
-  "description": "Automatically removes .mcas.ms when followed by /v5/ui/, Enabling users do Download or Upload documents on that page",
+  "description": "Automatically removes '.mcas.ms' from urls containing '.mcas.ms/v5/ui/',\nEnabling users to Download/Upload consent forms and documents on that page.",
   "permissions": [
     "webRequest",
     "webRequestBlocking",

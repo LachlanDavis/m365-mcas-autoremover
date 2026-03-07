@@ -1,7 +1,7 @@
 /*
 7/03/2026 Developed by Lachlan Davis, 
-For use when users are not able to upload or download documents
-Due to .mcas.ms not always being removed automatically by M365 from /v5/ui/ pages
+Automatically removes ".mcas.ms" from urls containing ".mcas.ms/v5/ui/", 
+Enabling users to Download/Upload consent forms other documents on that page.
 */
 
 function removeMcas(details) {
