@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://\\1/v5/ui/\\2"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://(.*)\\.mcas\\.ms/v5/ui/(.*)",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
